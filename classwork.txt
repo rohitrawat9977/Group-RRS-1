@@ -8,7 +8,28 @@ public class Program1 {
 		// TODO Auto-generated method stub
 		
 		
+	//member-1
+	
+	// 1- Question Printing 
+		System.out.println(" 1 - Test Program");
 		
+		// 2- Question Adding 2 numbers
+		int a,b,add,sub,div,mul,mod;
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Enter first number :");
+		a= input.nextInt();
+		
+		System.out.println("Enter second number :");
+		b=input.nextInt();
+		
+		add = a+b;
+		System.out.println(" 2 - Addition Answer is : " +add);
+		
+		
+		// 3- Question Dividing 2 numbers
+		div = a/b;
+		System.out.println(" 3 - Division Answer is : " +div);
 		
 		
 	}
