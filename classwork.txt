@@ -62,7 +62,25 @@ public class Program1 {
 		for(int i=1;i<=10;i++)
 			System.out.println(a+ "*" +i+ "=" +(a*i));
 	
+	// member -3
+	
+		//7 - Arethmetic Operations
+		double c = 25.5,d = 3.5 ,e = 40.5,f=4.5;
+		System.out.println(" 9 - Answer of arethmetic operation is " +(c*d - d*d)/(e-f));
 		
+		
+		//8 - Arethmetic Operations
+		double g=4.0,h=1.0;
+		int i=1,j=3,k=5,l=7,m=9,n=11;
+		System.out.println(" 10 - Answer of arethmetic operation is " +(g * (i - (h/j) + (h/k) - (h/l) + (h/m) - (h/n))));
+
+		
+		//9 - Area and perimeter of circle
+		
+		System.out.println("Enter radius : ");
+		double radius  = input.nextDouble();
+		System.out.println(" 11 - Area Of Circle is " +(3.14*radius*radius));
+		System.out.println("Perimeter of Circle is " +(2*3.14*radius));
 		
 	}
 
