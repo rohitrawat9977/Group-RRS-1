@@ -32,6 +32,38 @@ public class Program1 {
 		System.out.println(" 3 - Division Answer is : " +div);
 		
 		
+
+	// member -2
+	
+		//4 - Product of 2 numbers :
+		mul = a*b;
+		System.out.println(" 5 - Multiplication Answer is : " +mul);
+		
+		
+		
+		//5 - Add,Sub,Multiply,Divide and Remainder OF 2 numbers
+		System.out.println(" 6 - Arethemtic Operations : ");
+		add = a+b;
+		System.out.println("	Addition Answer is : " +add);
+		sub = a-b;
+		System.out.println("	Subtraction Answer is : " +sub);
+		div = a/b;
+		System.out.println("	Division Answer is : " +div);
+		mul = a*b;
+		System.out.println("	Multiplication Answer is : " +mul);
+		mod = a%b;
+		System.out.println("	Remainder answer is : " +mod);
+		
+		
+		
+		//6 - Multiplication table of number entered by user upto 10 
+		
+		System.out.println(" 7 - Multiplication of " +a+ " is");
+		for(int i=1;i<=10;i++)
+			System.out.println(a+ "*" +i+ "=" +(a*i));
+	
+		
+		
 	}
 
 }
