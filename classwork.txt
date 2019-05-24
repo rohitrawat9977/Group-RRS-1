@@ -81,7 +81,8 @@ public class Program1 {
 		double radius  = input.nextDouble();
 		System.out.println(" 11 - Area Of Circle is " +(3.14*radius*radius));
 		System.out.println("Perimeter of Circle is " +(2*3.14*radius));
-		//dekh liya apan ne aa raa raa
+		//dkdkvjs
+		
 	}
 
 }
